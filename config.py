@@ -19,7 +19,7 @@ class DefaultConfig:
 
     PORT = 3978
     APP_ID = "f5d5d22e-dc21-4d2f-9ecc-80ac1e6584d7"
-    APP_PASSWORD = "q5H8Q~T1X13TGv4RAl2lRItgA4ySV7F7fdgvlbc0"
+    APP_PASSWORD = "I5l8Q~4iHDAuYUu6X9hFqxQGQBVNKZYaweuAfdAF"
     LUIS_APP_ID = "0f93a641-96e4-425a-b29a-1ee8a281bdde"
     LUIS_API_KEY = "d5973268fb8343c890810a6a1e476ec5"
     LUIS_API_HOST_NAME = "https://luisocp10-authoring.cognitiveservices.azure.com/"

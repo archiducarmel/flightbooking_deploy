@@ -31,9 +31,6 @@ jobs:
         run: pip install -r requirements.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
-      # Run unit tests for the bot
-      - name: Run tests
-        run: python -m unittest tests/test_bot.py
       
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v2
@@ -63,4 +60,4 @@ jobs:
         with:
           app-name: 'flightbookingapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B5BE2A97CF1B4167BEF153D77501CD13 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EE036AC3F7694B07874922D192128FF0 }}

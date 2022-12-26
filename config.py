@@ -18,8 +18,8 @@ class DefaultConfig:
     APPINSIGHTS_INSTRUMENTATION_KEY = os.environ.get("AppInsightsInstrumentationKey", "9e2b1f3a-5636-4632-ac90-e45b7e709853")"""
 
     PORT = 3978
-    APP_ID = "0da65f1c-8e63-4527-a14f-b28a5236fd52"
-    APP_PASSWORD = "LfU8Q~2P5uOTPIePtkJ7CrooFduJAuDd12GdkcDj"
+    APP_ID = "f5d5d22e-dc21-4d2f-9ecc-80ac1e6584d7"
+    APP_PASSWORD = "q5H8Q~T1X13TGv4RAl2lRItgA4ySV7F7fdgvlbc0"
     LUIS_APP_ID = "0f93a641-96e4-425a-b29a-1ee8a281bdde"
     LUIS_API_KEY = "d5973268fb8343c890810a6a1e476ec5"
     LUIS_API_HOST_NAME = "https://luisocp10-authoring.cognitiveservices.azure.com/"
